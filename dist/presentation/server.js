@@ -27,7 +27,7 @@ class Server {
         return __awaiter(this, void 0, void 0, function* () {
             //--- Middlewares
             this.app.use(express_1.default.json()); // raw
-            this.app.use(express_1.default.urlencoded({ extended: true })); // w-www-form-urlencoded
+            this.app.use(express_1.default.urlencoded({ extended: true })); // x-www-form-urlencoded
             //--- Public folder
             this.app.use(express_1.default.static(this.publicPath));
             //--- Routes

@@ -7,6 +7,7 @@ yarn-error.log*
 lerna-debug.log*
 
 keys/
+/postgres
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
@@ -136,3 +137,7 @@ out
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+/src/generated/prisma
+
+/generated/prisma
