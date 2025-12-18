@@ -3,7 +3,7 @@
 export class UpdatedTodoDto {
 
     private constructor(
-        public readonly id?: number,
+        public readonly id: number,
         public readonly text?: string,
         public readonly completedAt?: string
     ) {}
